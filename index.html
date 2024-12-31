@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>微信登录</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>微信登录</h1>
+    <p>点击下方按钮使用微信登录</p>
+    <!-- 微信登录按钮 -->
+    <a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=YOUR_APPID&redirect_uri=YOUR_REDIRECT_URI&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect">
+      <button>微信登录</button>
+    </a>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
